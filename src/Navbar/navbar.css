@@ -1,0 +1,7 @@
+.navbar-link.active {
+    color: var(--color1-1);
+}
+
+.navbar-link:hover {
+    font-style: italic;
+}

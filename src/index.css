@@ -1,10 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  /* Colors */
+  --color0-1: #000000;
+  --color0-2: #161616;
+  --color0-3: #292929;
+  --color1-1: #a6ce39;
+  --color1-2: #ecf5d5;
+  --color1-3: #88aa2c;
+  --color2-1: #3f4143;
+  --color2-2: #595c5f;
+  --color2-3: #75797c;
+  --color2-4: #c6cace;
+  --color3-1: #ffffff;
+  --color3-2: #f1f1f1;
+  --color3-3: #dfdfdf;
+  --color4-1: #dc3545;
+  --color4-2: #fcc6cb;
+  --color4-3: #a52a36;
+  --color5-1: #ffc107;
+  --color5-2: #f8eabf;
+  --color5-3: #cf9d07;
+  --color6-1: #007bff;
+  --color6-2: #bedbfa;
+  --color6-3: #0463c9;
+  --focus-outline-color: #ff69b47e;
+
+  /* Spacing */
+  --spacing-0-5: 5px;
+  --spacing-1: 10px;
+  --spacing-2: 20px;
+  --spacing-3: 30px;
+  --spacing-4: 40px;
+  --spacing-5: 50px;
+  --spacing-6: 60px;
+  --spacing-7: 70px;
+  --spacing-8: 80px;
+  --spacing-9: 90px;
+  --spacing-10: 100px;
+
+  /* Font Size */
+  --largest: 1.5rem;
+  --larger: 1.3rem;
+  --large: 1.1rem;
+  --normal: 1rem;
+  --small: 0.9rem;
+  --smaller: 0.7rem;
+  --smallest: 0.6rem;
+
+  /* Font Weight */
+  --font-weight-thin: 500;
+  --font-weight-normal: 500;
+  --font-weight-thick: 600;
+  --font-weight-thicker: 800;
+  --font-weight-thickest: 900;
+
+  /* Common content size */
+  --size1: 36px;
+  --size2: 16px;
+  --size3: 46px;
+  --size4: 90px;
+}
+
+::-moz-selection {
+  color: var(--color3-1);
+  background: var(--color1-1);
+}
+
+::selection {
+  color: var(--color3-1);
+  background: var(--color1-1);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color3-1);
+  font-family: "Space Mono", monospace;
+  font-size: var(--normal);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color0-1);
 }
 
 code {

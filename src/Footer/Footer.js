@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import './footer.css';
 
 function Footer() {
     return (
-        <div>
-            <h1>Footer</h1>
+        <div className="Footer">
+            <div className="footer-container text-center pad-1 font-grey">Designed and coded by Abrar &copy; 2024</div>
         </div>
     );
 }

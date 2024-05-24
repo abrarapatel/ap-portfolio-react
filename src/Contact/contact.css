@@ -1,0 +1,131 @@
+.contact-content {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-container form {
+  width: 100%;
+}
+
+.contact-wrapper {
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-detail {
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.contact-detail::before {
+  top: 0;
+  left: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  transform: skewX(20deg);
+  position: absolute;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.contact-detail:hover::before {
+  transform: skewX(0deg);
+  background-color: var(--color0-2);
+}
+
+.contact-detail img {
+  width: 2rem;
+  vertical-align: bottom;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  outline: none;
+  width: 100%;
+}
+
+.contact-form input {
+  height: 70px;
+  padding: 0 20px;
+  width: 400px;
+  outline: none;
+  font-size: 0.9rem;
+  border: none;
+  background-color: var(--color0-2);
+}
+
+.contact-form textarea {
+  font-size: 0.9rem;
+  outline: none;
+  height: 200px;
+  padding: 20px;
+  width: 400px;
+  max-width: 400px;
+  min-width: 400px;
+  border: none;
+  background-color: var(--color0-2);
+}
+
+.contact-form button {
+  width: 400px;
+  height: 70px;
+  background-color: var(--color0-3);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--color2-4);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form button:focus {
+  outline: solid 4px var(--color2-4);
+}
+
+.contact-details-shower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: 20px 0;
+}
+
+.contact-details-copy-input {
+  width: 100%;
+  flex: 1;
+  height: 70px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: var(--color0-2);
+}
+
+.copy-btn-for-contact-details {
+  width: 80px;
+  height: 70px;
+  background-color: var(--color0-3);
+  border: none;
+  color: #fff;
+  font-size: 0.8rem;
+}

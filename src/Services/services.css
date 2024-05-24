@@ -1,0 +1,45 @@
+.services-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service-box {
+  background-color: var(--color0-2);
+  border-radius: 10px;
+}
+
+.service-box:hover {
+  background-color: var(--color0-3);
+}
+
+.service-image {
+  border-radius: 6px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.service-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.service-head {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--color1-1);
+}
+
+.service-detail p {
+  color: var(--color2-3);
+}
+
+.service-hashtags {
+  flex-wrap: wrap;
+}
+
+.service-hashtags div {
+  border-radius: 20px;
+  color: var(--color2-4);
+  background-color: var(--color2-2);
+}
