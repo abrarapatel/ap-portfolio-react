@@ -1,0 +1,47 @@
+.Work {
+    padding: 20px;
+  }
+  
+  .work-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .work-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .work-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .repository {
+    background: var(--color0-3);
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .repository h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  
+  .repository a {
+    text-decoration: none;
+    color: var(--color1-1);
+  }
+  
+  .repository a:hover {
+    text-decoration: underline;
+  }
+  
+  .repository p {
+    margin: 10px 0 0;
+    font-size: 1em;
+  }
+  
