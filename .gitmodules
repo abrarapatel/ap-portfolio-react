@@ -1,0 +1,3 @@
+[submodule "src/assets/snap-commons"]
+	path = src/assets/snap-commons
+	url = https://github.com/abrarapatel/snap-commons
